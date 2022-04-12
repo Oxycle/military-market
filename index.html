@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -47,58 +48,94 @@
                 <li><a href="#">바로주문</a></li>
             </ul>
         </nav>
-    <!-- <main class="main">
-        <section class="main__banner">
-            <img src="https://cdn.pixabay.com/photo/2017/03/22/21/16/bullets-2166491_960_720.jpg" alt="총알사진">
-            <strong>총알배송</strong>
-            <span>공장에서 갓나온 신선한 총알을 그대로 집앞까지</span>
-            <a href="#">지금바로 둘러보기</a>
-        </section>
-        <section class="main__container">
-            <div class="main__container__item">
-                <strong>MD추천</strong>
-                <div class="main container__item__1">
-                <a href="#"><img src="https://t1.daumcdn.net/cfile/tistory/274F6936575CF01112" alt="2A6탱크">
-                    <strong>Leopard 2A6</strong>
-                    <span>25,600원</span>
-                </a>
-                
-                <div class="main container__item__2">
-                <a href="#"><img src="https://t1.daumcdn.net/cfile/tistory/274F6936575CF01112" alt="M1A2탱크">
-                    <strong>M1A2 SEP</strong>
-                    <span>25,600원</span>
-                </a>
-                
-                <div class="main container__item__3">
-                <a href="#"><img src="https://t1.daumcdn.net/cfile/tistory/274F6936575CF01112" alt="9mm탄">
-                    <strong>9mm 탄 50묶음</strong>
-                    <span>25,600원</span>
-                </a>
-                
-                <div class="main container__item__4">
-                <a href="#"><img src="https://t1.daumcdn.net/cfile/tistory/274F6936575CF01112" alt="항공모함">
-                    <strong>Gerald R. Ford-class Aircraft Carrier</strong>
-                    <span>25,600원</span>
-                </a>
-                
-                </div>
-
-            </div>
-        </section>
-
-    </main>      
-    <footer class="footer"></footer>
-
-        
-
-    </header>
     <main class="main">
-
+        <ol class="items">
+            <li class="item">
+                <a href="#" class="item__img">
+                </a>
+                <div class="item__contents">
+                    <div class="item__contents__titlebox">
+                        <span class="item__contents__titlebox__age blue">12</span>
+                        <h4 class="item__contents__titlebox__title">장영실 함</h4>
+                    </div>
+                    <p class="item__contents__content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quod, in adipisci excepturi quis laudantium porro sed corporis et necessitatibus.
+                    </p>
+                    <div class="item__contents__info">
+                        <span class="item__contents__info__power">어뢰탐지기 미탑재</span>
+                        <span class="item__contents__info__price">99.99$</span>
+                    </div>
+                    <div class="item__contents__buttons">
+                        <button class="item__contents__buttons__wish"><i class="fa-solid fa-heart"></i> 찜</button><button class="item__contents__buttons__buy">구매</button><button class="item__contents__buttons__cart">장바구니</button>
+                    </div>
+                </div>
+                <span class="item__rank">1</span>
+            </li>
+            <li class="item">
+                <a href="#" class="item__img">
+                </a>
+                <div class="item__contents">
+                    <div class="item__contents__titlebox">
+                        <span class="item__contents__titlebox__age blue">12</span>
+                        <h4 class="item__contents__titlebox__title">흑표 전차</h4>
+                    </div>
+                    <p class="item__contents__content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quod, in adipisci excepturi quis laudantium porro sed corporis et necessitatibus.
+                    </p>
+                    <div class="item__contents__info">
+                        <span class="item__contents__info__power">연막탄 기능 업데이트</span>
+                        <span class="item__contents__info__price">4.99$</span>
+                    </div>
+                    <div class="item__contents__buttons">
+                        <button class="item__contents__buttons__wish"><i class="fa-solid fa-heart"></i> 찜</button><button class="item__contents__buttons__buy">구매</button><button class="item__contents__buttons__cart">장바구니</button>
+                    </div>
+                </div>
+                <span class="item__rank">2</span>
+            </li>
+            <li class="item">
+                <a href="#" class="item__img">
+                </a>
+                <div class="item__contents">
+                    <div class="item__contents__titlebox">
+                        <span class="item__contents__titlebox__age blue">12</span>
+                        <h4 class="item__contents__titlebox__title">K1 기관단총</h4>
+                    </div>
+                    <p class="item__contents__content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quod, in adipisci excepturi quis laudantium porro sed corporis et necessitatibus.
+                    </p>
+                    <div class="item__contents__info">
+                        <span class="item__contents__info__power">연사율 33%</span>
+                        <span class="item__contents__info__price">3.99$</span>
+                    </div>
+                    <div class="item__contents__buttons">
+                        <button class="item__contents__buttons__wish"><i class="fa-solid fa-heart"></i> 찜</button><button class="item__contents__buttons__buy">구매</button><button class="item__contents__buttons__cart">장바구니</button>
+                    </div>
+                </div>
+                <span class="item__rank">3</span>
+            </li>
+            <li class="item">
+                <a href="#" class="item__img">
+                </a>
+                <div class="item__contents">
+                    <div class="item__contents__titlebox">
+                        <span class="item__contents__titlebox__age blue">12</span>
+                        <h4 class="item__contents__titlebox__title">대한항공 여객기</h4>
+                    </div>
+                    <p class="item__contents__content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quod, in adipisci excepturi quis laudantium porro sed corporis et necessitatibus.
+                    </p>
+                    <div class="item__contents__info">
+                        <span class="item__contents__info__power">400인 탑승가능</span>
+                        <span class="item__contents__info__price">399.99$</span>
+                    </div>
+                    <div class="item__contents__buttons">
+                        <button class="item__contents__buttons__wish"><i class="fa-solid fa-heart"></i> 찜</button><button class="item__contents__buttons__buy">구매</button><button class="item__contents__buttons__cart">장바구니</button>
+                    </div>
+                </div>
+                <span class="item__rank">4</span>
+            
+            
+        </ol>
     </main>
-    <footer>
-        <address>
-            <p>충남 논산시 연무읍 사서함 76-8호 041)740-6330</p>
-        </address>
-    </footer> -->
 </body>
 </html>
